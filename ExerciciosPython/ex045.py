@@ -13,6 +13,8 @@ if mão == computador:
     print('Empatamos')
 elif (mão == 'PAPEL' and computador == 'PEDRA') or (mão == 'PEDRA' and computador == 'TESOURA') or \
         (mão == 'TESOURA' and computador == 'PAPEL'):
-    print('Voce ganhou!')
+    print('Voce GANHOU!')
 else:
-    print('Voce perdeu!')
+    print('Voce PERDEU!')
+
+

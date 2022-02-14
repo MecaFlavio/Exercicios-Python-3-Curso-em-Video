@@ -12,13 +12,13 @@ import datetime
 ano = int(input('Em em qual ano você nasceu: '))
 ano_int = int(datetime.datetime.today().strftime('%Y'))
 idade = ano_int - ano
-if idade <= 9:
+if idade <= 9: # o teste acontece em cascata, por tando não preciso testar a opção anterior nesse caso
     print(f'Você possui {idade} anos. Sua categoria é a MÍRIM.')
-elif 9 < idade <= 14:
+elif idade <= 14:
     print(f'Você possui {idade} anos. A categoria é INFANTIL.')
-elif 14 < idade <= 19:
+elif idade <= 19:
     print(f'Você possui {idade} anos. A categoria é JUNOR.')
-elif 19 < idade <=30  :
+elif idade <=25:
     print(f'Você possui {idade} anos. A sua categoria é SÊNIOR')
 else:
     print(f'Sua idade é {idade} anos. Você está na categoria MASTER')

@@ -14,11 +14,11 @@ imc = peso / (altura**2)
 
 if imc < 18.5:
     print(f'IMC {imc:.1f}. Voce está a baixo do peso ideal.')
-elif 18.5 <= imc <= 25:
+elif 18.5 <= imc < 25:
     print(f'IMC {imc:.1f}. Você está no peso Ideal')
-elif 25 < imc <= 30:
+elif 25 <= imc < 30:  # nesse caso eu não precisaria testar a faixa anterior
     print(f'IMC {imc:.1f}. Você está com Sobre Peso.')
-elif 30 < imc <= 40:
+elif 30 <= imc < 40:
     print(f'IMC {imc:.1f}. Você está com Obesidade.')
-elif 40 < imc:
+elif 40 <= imc:
     print(f'IMC {imc:.1f}. Você está com Obesidade Morbida.')

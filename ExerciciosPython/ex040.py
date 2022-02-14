@@ -12,7 +12,7 @@ média = (nota_1 + nota_2)/2
 
 if média < 5:
     print('Sua Média foi {:.1f}. Você está reprovado.'.format(média))
-elif 5 <= média < 6.9:
+elif 5 <= média < 7:
     print('Sua média foi {:.1f}. Você está de recuperação.'.format(média))
 else:
     print('Sua média foi {:.1f}. Você está aprovado.'.format(média))

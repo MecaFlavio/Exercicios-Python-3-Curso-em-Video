@@ -3,10 +3,15 @@
 # No final, mostre a lista ordenada na tela.
 
 lista = []
-for v in range(0, 5):
+for c in range(0, 5):
     numero = int(input('Digite um numero: '))
-    if numero >= lista[v]:
-        lista.insert(v, numero)
-    if numero <= lista[v]:
-        lista.insert(v, numero)
-print(lista)
+    if c == 0 or numero > lista[-1]:  # também posso apontar lista[len(lista)-1]
+        lista.append(numero)
+    else:
+        pos = 0
+        while pos < len(lista):  # Essa codigo vai verificar cada posição da lista se o número é menor.
+            if numero <= lista[pos]:
+                lista.insert(pos, numero)
+                break
+            pos += 1
+print(f'Os valores de lista são {lista}')

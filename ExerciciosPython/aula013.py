@@ -18,7 +18,7 @@ for c in range(0, n+1):
 print('fim')
 
 s = 0
-for c in range (0, 4):
+for c in range(0, 4):
     n = int(input('Digite um numero'))
     s += n  # Esta sintaxe s += n significa s = s + n, python permite esse tipo de apontamento
 print(s)

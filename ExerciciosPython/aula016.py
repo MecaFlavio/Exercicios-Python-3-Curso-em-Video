@@ -67,5 +67,5 @@ pessoa = ('Flavio', 32, 'Casado', 'peso', 110)
 print(pessoa)
 
 # É possivel deletar uma tupla durante a execução do programa com o comando del
-## del lanche
+del lanche
 print(lanche)

@@ -1,6 +1,5 @@
-## Leia uma numero e mostre o seu dobro, triplo e raiz quadrada
-n = float(input('Digite um numero: '))
-a = n * 2
-b = n * 3
-c = n ** (1/2)
-print(f'Você digitou {n}, o dobro de {n} é {a}, o triplo é {b} e a raiz quadrada é {c:.2f}')
+## Leia duas notas de um aluno e calcule a média
+n1 = float(input('Digite sua primeira nota: '))
+n2 = float(input('Digite sua segunda nota: '))
+n3 = (n1+n2)/2
+print(f'A média da suas notas é {n3:.1f}')

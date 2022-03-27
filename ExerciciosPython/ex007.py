@@ -1,5 +1,5 @@
-## Leia duas notas de um aluno e calcule a média
-n1 = float(input('Digite sua primeira nota: '))
-n2 = float(input('Digite sua segunda nota: '))
-n3 = (n1+n2)/2
-print(f'A média da suas notas é {n3:.1f}')
+## Leia um valor em metros e exiba convertido em milimetros
+m = float(input('Insira uma medida em metros: '))
+c = m * 100
+print(f'{m:.2f} metros equivale a {c:.2f} centimetros'
+      f'\nE equivale a {m*1000:.2f} milimetros')

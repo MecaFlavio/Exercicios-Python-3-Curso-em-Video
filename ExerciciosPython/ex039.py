@@ -5,11 +5,11 @@
 # - Se é a hora de se alistar.
 # - Se já passou o tempo do alistamento.
 
-from datetime import datetime # modulo que importa data do sistema
+from datetime import datetime  # modulo que importa data do sistema
 
 ano_nasc = int(input('Digite seu ano de nascimento: '))
-ano_atual_str = datetime.today().strftime('%Y')# metodo strftime() formata a data de int para string
-ano_atual_int = int(ano_atual_str)# Convertendo o ano de string para int
+ano_atual_str = datetime.today().strftime('%Y')  # metodo strftime() formata a data de int para string
+ano_atual_int = int(ano_atual_str)  # Convertendo o ano de string para int
 
 if ano_atual_int - ano_nasc == 18:
     print('Este ano voce estará com 18, você precisa se alistar!')

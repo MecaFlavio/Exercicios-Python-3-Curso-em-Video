@@ -1,4 +1,4 @@
-# Variaveis compostas — Listar parte 2
+# Variaveis compostas — Lista parte 2
 teste = list()
 teste.append('Flavio')
 teste.append(32)

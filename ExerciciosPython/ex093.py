@@ -3,15 +3,16 @@
 # guardado num dicionário, incluindo o total de gols feitos durante o campeonato.
 lista_gols = []
 dicionario = {}
-soma = 0
+#soma = 0  # Variavel criada para soma
 dicionario['Nome'] = str(input('Nomer do Jogador: '))
+tot = int(input(f'Quantas partidas {dicionario["Nome"]} jogou: '))
 # Inserindo valores em uma lista
-for v in range(0, 5):
+for v in range(0, tot):
     lista_gols.append(int(input(f'Quantos gols na {v + 1}ª partida: ')))
-    soma += lista_gols[v]
+#    soma += lista_gols[v]  # outra forma de fazer soma dos valores da lista, foi utilizado o metodo sum()
 # inserindo uma lista em um dicionário
 dicionario['Gols'] = lista_gols[:]
-dicionario['Total'] = soma
+dicionario['Total'] = sum(lista_gols)  # forma de somar valores da lista
 print('=' * 30)
 print(dicionario)
 print('=' * 30)

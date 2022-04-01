@@ -2,7 +2,7 @@
 dicionario = {}  # forma de declarar um dicionário
 dicionario2 = dict()  # outra forma de declara um dicionário
 # Declarando um dicionário com valores
-pessoas = {'nome': 'flavio','sexo': 'M', 'idade': 32}
+pessoas = {'nome': 'flavio', 'sexo': 'M', 'idade': 32}
 print(pessoas)
 # Selecionando dados no dicionario
 print(pessoas['nome'])

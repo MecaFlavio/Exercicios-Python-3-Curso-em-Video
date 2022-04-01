@@ -1,5 +1,5 @@
 # Crie um programa que tenha uma tupla totalmente preenchida por extenso, de zero até vinte
-# Seu programa deveré ler um número pelo teclado (entre 0 e 20) e mostra-lá por extenso
+# O programa deveré ler um número pelo teclado (entre 0 e 20) e mostra-lá por extenso
 
 numeral = ('Zero', 'Um', 'Dois', 'Tres', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito',
            'Nove', 'Dez', 'Onze', 'Doze', 'Treze', 'Quatorze', 'Quinze', 'Desesseis', 'Desesete',

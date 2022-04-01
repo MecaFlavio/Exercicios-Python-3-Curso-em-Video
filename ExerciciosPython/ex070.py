@@ -1,5 +1,5 @@
 # Crie um programa que leia o nome e o preço de vários produtos. O programa devera perguntar
-# se o usuário vai continuar. No final, mostre:
+# se o utilizador vai continuar. No final, mostre:
 #
 # a) Qual é o total gasto na compra
 # b) Quantos produtos custam mais de 1000 reais

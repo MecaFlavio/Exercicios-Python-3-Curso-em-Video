@@ -12,7 +12,7 @@ def leiaint(msg):
     return valor
 
 
-#programa pricipal
+# programa pricipal
 n = leiaint('Digite um numero: ')
 print(f'O numero digitado foi {n}')
 

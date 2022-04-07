@@ -5,7 +5,9 @@ while contador != 1:
    numero = fatorial
    fatorial = numero * (contador - 1)
    contador -= 1
-print(f'O {fator}! é {fatorial:,}')
+print(f'O fatorial de {fator}! é {fatorial:,}')
+
+# Resolução do professor
 
 fatorial = int(input('Qual numero deseja realizar o fatorial: '))
 fator = fatorial

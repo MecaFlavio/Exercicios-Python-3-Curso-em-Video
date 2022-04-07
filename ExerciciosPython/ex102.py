@@ -25,6 +25,7 @@ def fatorial(n, show=False):
     return f'O fatorial de {numero} é {numero_local}'
 
 
+# programa principal
 numero = int(input('Qual numero deseja ver o fatorial: '))
 while True:
     opção = str(input('Deseja ver o processo de calculo? (S/N): ')).strip().upper()
@@ -32,15 +33,13 @@ while True:
         print('Essa opção não existe.')
     else:
         if opção in 'S':
-            bool(opção)
-            opção = True
+            fatorial(numero, show=True)
             break
         elif opção in 'N':
-            bool(opção)
-            opção = False
+            fatorial(numero)
             break
-fatorial(numero, opção)
 print(fatorial(numero))
+print()
 help(fatorial)
 
 

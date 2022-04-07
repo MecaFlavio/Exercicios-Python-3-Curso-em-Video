@@ -28,7 +28,7 @@ def notas(*d, sit=False):
     return r
 
 
-#programa principal
+# programa principal
 resp = notas(10, 2.5, 4, 7.8, 2, 3.5, sit=True)
 print(resp)
 help(notas)

@@ -1,6 +1,6 @@
 # Crie um programa que tenha a função leiaint()
-# que vai duncionar de forma semelhante à função input do python,
-# contudo fazendo a validação para aceitar apeas um valor numerico.
+# que vai funcionar de forma semelhante à função input do python,
+# contudo fazendo a validação para aceitar apenas um valor numerico.
 def leiaint(msg):
     while True:
         n = str(input(msg))

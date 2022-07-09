@@ -8,7 +8,7 @@ def leiaInt(msg):
             continue  # continue continua o loop infinito
         except (KeyboardInterrupt):
             print('\033[1;101mAtenção! O usuário escolheu não digitar nenhum valor!\033[m')
-            return 3
+            return 4
 
 
 def linha(tam=42):

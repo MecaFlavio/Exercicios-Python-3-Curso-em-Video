@@ -1,5 +1,5 @@
 # Crie um pequeno sistema modularizado que permita cadastrar pessoas pelo seu nome e idade
-# em um arquivo de teste simples
+# num arquivo de teste simples
 # O sistema só vai ter 2 opçoes: Cadastrar uma nova pessoa e listar todas as pessoas cadastradas
 
 # o asterisco no import indica que toda lib foi importada
